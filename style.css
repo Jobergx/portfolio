@@ -1,0 +1,74 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;  /* Simple, clean font */
+    margin: 0;
+    line-height: 1.6;
+    background-color: #fff; /* White background */
+    color: #333; /* Dark gray text for contrast */
+}
+
+header {
+    background-color: #87CEEB; /* Light sky blue header */
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px; /* More space between navigation items */
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500; /* Slightly bolder font for links */
+}
+
+section {
+    padding: 3rem; /* Increased padding for airiness */
+    margin-inline: auto;
+    max-width: 1024px; /* Center content for balance */
+}
+
+h2 {
+    margin-bottom: 1.5rem;
+    color: #00BFFF; /* Accent color for headings */
+}
+
+/* Project Section */
+
+.project {
+    background-color: #fff;
+    border: 1px solid #eee; /* Subtle border */
+    margin-bottom: 2rem;
+    box-shadow: none; /* Remove box shadow */
+    
+}
+
+.project img {
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 1.5rem;
+    filter: grayscale(30%); /* Subtle grayscale effect */
+}
+
+
+
+/* Contact Section */
+form {
+    /* Style form elements with a minimalist approach */
+}
+
+/* Footer */
+footer {
+    background-color: #1E90FF; /* Darker blue footer */
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
