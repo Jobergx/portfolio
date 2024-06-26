@@ -4,11 +4,11 @@ body {
     margin: 0;
     line-height: 1.6;
     background-color: #fff; /* White background */
-    color: #333; /* Dark gray text for contrast */
+    color: #131313; /* Dark gray text for contrast */
 }
 
 header {
-    background-color: #87CEEB; /* Light sky blue header */
+    background-color: #14aeea; /* Light sky blue header */
     color: #fff;
     padding: 1rem 0;
     text-align: center;
@@ -38,7 +38,7 @@ section {
 
 h2 {
     margin-bottom: 1.5rem;
-    color: #00BFFF; /* Accent color for headings */
+    color: #14aeea; /* Accent color for headings */
 }
 
 /* Project Section */
@@ -90,7 +90,7 @@ h2 {
   }
   
   button[type="submit"] {
-    background-color: #00BFFF; /* Use one of your accent colors */
+    background-color: #14aeea; /* Use one of your accent colors */
     color: white;
     padding: 1rem 1.5rem;
     border: none;
