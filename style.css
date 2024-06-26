@@ -45,14 +45,18 @@ h2 {
 
 .project {
     background-color: #fff;
-    border: 1px solid #eee; /* Subtle border */
+    border: 2px solid #c1d5f0; /* Subtle border */
     margin-bottom: 2rem;
     box-shadow: none; /* Remove box shadow */
-    
+    padding: 15px;
+    border-radius: 12px;
 }
 
 .project img {
-    max-width: 300px;
+    max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+  height: auto;     /* Automatically adjust the height to maintain the aspect ratio */
+  display: block;   /* Prevent extra space below the image due to default inline behavior */
+  object-fit: cover;
     height: auto;
     margin-bottom: 1.5rem;
     filter: grayscale(30%); /* Subtle grayscale effect */
@@ -61,9 +65,40 @@ h2 {
 
 
 /* Contact Section */
-form {
-    /* Style form elements with a minimalist approach */
-}
+/* Contact Form Styles */
+#contact-form {
+    max-width: 500px; /* Adjust as needed */
+    margin: 0 auto;  /* Center the form */
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500; /* Slightly bolder labels */
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #eee; /* Subtle border */
+    border-radius: 4px;   /* Slightly rounded corners */
+  }
+  
+  button[type="submit"] {
+    background-color: #00BFFF; /* Use one of your accent colors */
+    color: white;
+    padding: 1rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
 
 /* Footer */
 footer {
