@@ -38,7 +38,8 @@ section {
 
 h2 {
     margin-bottom: 1.5rem;
-    color: #14aeea; /* Accent color for headings */
+    color: #1E90FF; /* Light sky blue header */
+    ; /* Accent color for headings */
 }
 
 /* Project Section */
@@ -90,7 +91,8 @@ h2 {
   }
   
   button[type="submit"] {
-    background-color: #14aeea; /* Use one of your accent colors */
+    background-color:#1E90FF; /* Light sky blue header */
+    ; /* Use one of your accent colors */
     color: white;
     padding: 1rem 1.5rem;
     border: none;
