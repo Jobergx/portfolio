@@ -75,6 +75,19 @@ h2 {
 /* Contact Section */
 /* Contact Form Styles */
 /* Social Links */
+#contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-inline: auto;
+    padding: 3rem;
+    @media (max-width: 768px){
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
 .social-links a {
     display: inline-block; /* Display links inline but allow for margin */
     margin: 0 10px; 
@@ -86,39 +99,13 @@ h2 {
     margin-right: 5px;  /* Add some space between the icon and text */
   }
   
-#contact-form {
-    max-width: 500px; /* Adjust as needed */
-    margin: 4rem auto;  /* Center the form */
-  }
+
   
-  .form-group {
-    margin-bottom: 1.5rem;
-  }
   
-  label {
-    display: block;
-    margin-bottom: 0.5rem;
-    font-weight: 500; /* Slightly bolder labels */
-  }
   
-  input,
-  textarea {
-    width: 100%;
-    padding: 0.8rem;
-    border: 1px solid #eee; /* Subtle border */
-    border-radius: 4px;   /* Slightly rounded corners */
-  }
   
-  button[type="submit"] {
-    background-color:#1E90FF; /* Light sky blue header */
-    ; /* Use one of your accent colors */
-    color: white;
-    padding: 1rem 1.5rem;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 1rem;
-  }
+  
+  
   
 
 /* Footer */
