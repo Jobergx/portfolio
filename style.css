@@ -31,7 +31,7 @@ nav a {
 }
 
 section {
-    padding: 3rem; /* Increased padding for airiness */
+    padding: 1rem; /* Increased padding for airiness */
     margin-inline: auto;
     max-width: 1024px; /* Center content for balance */
 }
@@ -43,8 +43,14 @@ h2 {
 }
 
 /* Project Section */
-
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 2rem;
+}
 .project {
+
+    max-width: 450px;
     background-color: #fff;
     border: 2px solid #c1d5f0; /* Subtle border */
     margin-bottom: 2rem;
@@ -54,6 +60,7 @@ h2 {
 }
 
 .project img {
+    
     max-width: 100%; /* Ensure the image doesn't exceed its container's width */
   height: auto;     /* Automatically adjust the height to maintain the aspect ratio */
   display: block;   /* Prevent extra space below the image due to default inline behavior */
@@ -67,9 +74,21 @@ h2 {
 
 /* Contact Section */
 /* Contact Form Styles */
+/* Social Links */
+.social-links a {
+    display: inline-block; /* Display links inline but allow for margin */
+    margin: 0 10px; 
+    color: #4682B4; /* Use your preferred color for the links */
+    text-decoration: none;
+  }
+  
+  .social-links i {
+    margin-right: 5px;  /* Add some space between the icon and text */
+  }
+  
 #contact-form {
     max-width: 500px; /* Adjust as needed */
-    margin: 0 auto;  /* Center the form */
+    margin: 4rem auto;  /* Center the form */
   }
   
   .form-group {
