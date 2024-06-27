@@ -35,7 +35,10 @@ section {
     margin-inline: auto;
     max-width: 1024px; /* Center content for balance */
 }
-
+.cert {
+    max-width: 150px;
+   
+}
 h2 {
     margin-bottom: 1.5rem;
     color: #1E90FF; /* Light sky blue header */
