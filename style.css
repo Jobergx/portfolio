@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background-color: #1E90FF; /* Light sky blue header */
+    background-color: #0368ce; /* Light sky blue header */
     color: #fff;
     padding: 1rem 0;
     text-align: center;
@@ -41,7 +41,7 @@ section {
 }
 h2 {
     margin-bottom: 1.5rem;
-    color: #1E90FF; /* Light sky blue header */
+    color: #0368ce; /* Light sky blue header */
     ; /* Accent color for headings */
 }
 
@@ -94,7 +94,7 @@ h2 {
 .social-links a {
     display: inline-block; /* Display links inline but allow for margin */
     margin: 0 10px; 
-    color: #4682B4; /* Use your preferred color for the links */
+    color: #0368ce; /* Use your preferred color for the links */
     text-decoration: none;
   }
   
@@ -113,7 +113,7 @@ h2 {
 
 /* Footer */
 footer {
-    background-color: #1E90FF; /* Darker blue footer */
+    background-color: #0368ce; /* Darker blue footer */
     color: #fff;
     text-align: center;
     padding: 1rem 0;
